@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-    <router-link to="/newpage">Nova_stranica</router-link>
+    <router-link to="/">Naslovnica</router-link> |
+    <router-link to="/about">O aplikaciji</router-link>
+    <router-link to="/newpage">Popis_restorana</router-link>
   </nav>
   
 </template>
