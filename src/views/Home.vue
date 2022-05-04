@@ -1,8 +1,7 @@
 <template>
-<div class="Home">
-    <p>{Homepagesefesf}</p>
-    <p>Homepagesefesf</p>
-    <p>Homepagesefesf</p>
+<div class="home">
+    <p>Homepage</p>
+    <p>Bla bla</p>
     </div>
 </template>
         
@@ -12,4 +11,5 @@
          name: 'Home',   
         }
         </script>
-      
+        
+    

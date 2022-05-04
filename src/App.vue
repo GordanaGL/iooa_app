@@ -1,12 +1,23 @@
 <template>
-  <h1>My first Vue app</h1>
+  <nav>
+    <router-link to="/home">Home</router-link>|
+    <router-link to="/login">Login</router-link>|
+    <router-link to="/signup">SignUp</router-link>
+  </nav>
+  <router-view/>
+  
 </template>
 
+
+
 <script>
+import HelloWorld from './components/HelloWorld.vue'
+
+
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
   }
 }
 </script>
